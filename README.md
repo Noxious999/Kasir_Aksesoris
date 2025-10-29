@@ -136,9 +136,9 @@ Repositori ini berisi kode sumber untuk program kasir sederhana yang dibuat meng
 
 ## Penjelasan Singkat
 
-</div>
-
 Program ini menggunakan dua fungsi utama: `diskon()` untuk menghitung potongan harga berdasarkan total belanja, dan `main()` sebagai fungsi utama yang mengelola alur program. Data barang dan harga disimpan dalam *array* `barang` dan `bayar`. Program berinteraksi dengan pengguna melalui menu berbasis teks dan input `scanf`. Logika pemilihan barang, akumulasi total (`hitung`), dan penerapan diskon diatur menggunakan struktur `if-else if` dan loop `do-while`. Hasil akhir transaksi dicatat ke dalam file eksternal `Kasir.txt`.
+
+</div>
 
 ---
 
@@ -151,3 +151,5 @@ Program ini menggunakan dua fungsi utama: `diskon()` untuk menghitung potongan h
 *(Klik gambar di atas untuk melihat video demonstrasi program di YouTube)*
 
 </div>
+
+---
