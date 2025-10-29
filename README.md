@@ -76,13 +76,39 @@ Repositori ini berisi kode sumber untuk program kasir sederhana yang dibuat meng
 
 ## Contoh Output
 
-**Tampilan Awal:**
-![Tampilan Awal](0.PNG) **Menu Utama:**
-![Menu Utama](1.PNG) **Proses Pembelian & Checkout:**
-![Proses Pembelian](2.PNG) **Isi File Kasir.txt:**
-![Isi File Kasir.txt](4.PNG) ---
+<div align="center">
 
-## Analisis Singkat Kode
+**Tampilan Awal**
+
+![Tampilan Awal](0.PNG)
+
+</div>
+
+<div align="center">
+
+**Menu Utama**
+
+![Menu Utama](1.PNG)
+
+</div>
+
+<div align="center">
+
+**Proses Pembelian & Checkout**
+
+![Proses Pembelian](2.PNG)
+
+</div>
+
+<div align="center">
+
+**Isi File Kasir.txt**
+
+![Isi File Kasir.txt](4.PNG) 
+
+</div>
+
+## Penjelasan Singkat
 
 Program ini menggunakan dua fungsi utama: `diskon()` untuk menghitung potongan harga berdasarkan total belanja, dan `main()` sebagai fungsi utama yang mengelola alur program. Data barang dan harga disimpan dalam *array* `barang` dan `bayar`. Program berinteraksi dengan pengguna melalui menu berbasis teks dan input `scanf`. Logika pemilihan barang, akumulasi total (`hitung`), dan penerapan diskon diatur menggunakan struktur `if-else if` dan loop `do-while`. Hasil akhir transaksi dicatat ke dalam file eksternal `Kasir.txt`.
 
@@ -90,5 +116,10 @@ Program ini menggunakan dua fungsi utama: `diskon()` untuk menghitung potongan h
 
 ## Demonstrasi Video
 
-[![Demonstrasi Program Kasir](demo_thumbnail.webp)](https://youtu.be/FMWzWn124ro)
-*(Klik gambar di atas untuk melihat video demonstrasi)*
+<div align="center">
+
+[![Demonstrasi Program Kasir Sederhana C++](demo_thumbnail.webp)](https://youtu.be/FMWzWn124ro)
+
+*(Klik gambar di atas untuk melihat video demonstrasi program di YouTube)*
+
+</div>
