@@ -77,10 +77,10 @@ Repositori ini berisi kode sumber untuk program kasir sederhana yang dibuat meng
 ## Contoh Output
 
 **Tampilan Awal:**
-![Tampilan Awal](images/0.PNG) **Menu Utama:**
-![Menu Utama](images/1.PNG) **Proses Pembelian & Checkout:**
-![Proses Pembelian](images/2.PNG) **Isi File Kasir.txt:**
-![Isi File Kasir.txt](images/4.PNG) ---
+![Tampilan Awal](0.PNG) **Menu Utama:**
+![Menu Utama](1.PNG) **Proses Pembelian & Checkout:**
+![Proses Pembelian](2.PNG) **Isi File Kasir.txt:**
+![Isi File Kasir.txt](4.PNG) ---
 
 ## Analisis Singkat Kode
 
@@ -90,5 +90,5 @@ Program ini menggunakan dua fungsi utama: `diskon()` untuk menghitung potongan h
 
 ## Demonstrasi Video
 
-[![Demonstrasi Program Kasir](images/demo_thumbnail.webp)](https://youtu.be/FMWzWn124ro)
+[![Demonstrasi Program Kasir](demo_thumbnail.webp)](https://youtu.be/FMWzWn124ro)
 *(Klik gambar di atas untuk melihat video demonstrasi)*
