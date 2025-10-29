@@ -65,15 +65,22 @@ Repositori ini berisi kode sumber untuk program kasir sederhana yang dibuat meng
 ## Contoh Output
 
 **Tampilan Awal:**
-![Tampilan Awal](0.PNG) **Menu Utama:**
+![Tampilan Awal](0.PNG) 
 
-![Menu Utama](1.PNG) **Proses Pembelian & Checkout:**
+**Menu Utama:**
+![Menu Utama](1.PNG) 
 
-![Proses Pembelian](2.PNG) **Isi File Kasir.txt:**
+**Proses Pembelian & Checkout:**
+![Proses Pembelian](2.PNG) 
 
-![Isi Kasir.txt](4.PNG) ## Analisis Singkat Kode (dari Laporan Asli)
+**Isi File Kasir.txt:**
+![Isi Kasir.txt](4.PNG) ## 
+
+[![PENJELASAN]
 
 Program ini menggunakan dua fungsi utama: `diskon()` untuk menghitung potongan harga berdasarkan total belanja, dan `main()` sebagai fungsi utama yang mengelola alur program. Data barang dan harga disimpan dalam *array* `barang` dan `bayar`. Program berinteraksi dengan pengguna melalui menu berbasis teks dan input `scanf`. Logika pemilihan barang, akumulasi total, dan penerapan diskon diatur menggunakan struktur `if-else if` dan loop `do-while`. Hasil akhir transaksi dicatat ke dalam file eksternal `Kasir.txt` menggunakan fungsi-fungsi dari `stdio.h`.
 
+
+[![Demonstrasi Program Kasir](demo_thumbnail.webp)](https://youtu.be/FMWzWn124ro)
 [![Demonstrasi Program Kasir](demo_thumbnail.png)](https://youtu.be/FMWzWn124ro)
 ---
