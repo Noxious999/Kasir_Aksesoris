@@ -23,11 +23,11 @@ Repositori ini berisi kode sumber untuk program kasir sederhana yang dibuat meng
 * **Konfirmasi Pembelian:** Pengguna diminta konfirmasi untuk setiap barang yang dipilih.
 * **Perhitungan Total Belanja:** Akumulasi total harga barang yang dipilih.
 * **Sistem Diskon Bertingkat:** Memberikan diskon berdasarkan total belanja:
-    * [cite_start]20% untuk total > Rp 50.000 dan < Rp 200.000 [cite: 29-35]
-    * [cite_start]40% untuk total >= Rp 200.000 dan < Rp 500.000 [cite: 36-42]
-    * [cite_start]60% untuk total >= Rp 500.000 [cite: 43-48]
+    * 20% untuk total > Rp 50.000 dan < Rp 200.000
+    * 40% untuk total >= Rp 200.000 dan < Rp 500.000
+    * 60% untuk total >= Rp 500.000
 * **Checkout:** Menampilkan total belanja sebelum dan sesudah diskon.
-* [cite_start]**Output ke File:** Menyimpan struk pembelian (daftar barang, total, total setelah diskon) ke dalam file teks bernama `Kasir.txt` [cite: 59, 102-108, 317, 319].
+* **Output ke File:** Menyimpan struk pembelian (daftar barang, total, total setelah diskon) ke dalam file teks bernama `Kasir.txt`.
 * **Opsi Keluar:** Memberikan pilihan untuk keluar dari program.
 
 ## Teknologi yang Digunakan
@@ -52,7 +52,7 @@ Repositori ini berisi kode sumber untuk program kasir sederhana yang dibuat meng
     ./program_kasir.exe
     ```
     *(atau `program_kasir.exe` saja di Windows Command Prompt)*
-6.  **Output File:** Setelah Anda melakukan *checkout* (memilih opsi 0), program akan membuat/menimpa file `Kasir.txt` di direktori yang sama, berisi struk pembelian Anda[cite: 59, 301].
+6.  **Output File:** Setelah Anda melakukan *checkout* (memilih opsi 0), program akan membuat/menimpa file `Kasir.txt` di direktori yang sama, berisi struk pembelian Anda.
 
 ## Struktur File
 
@@ -64,14 +64,16 @@ Repositori ini berisi kode sumber untuk program kasir sederhana yang dibuat meng
 
 ## Contoh Output
 
-*(Anda bisa menyertakan screenshot dari file 0.PNG, 1.PNG, 2.PNG, dan 4.PNG di sini untuk visualisasi)*
-
 **Tampilan Awal:**
 ![Tampilan Awal](0.PNG) **Menu Utama:**
+
 ![Menu Utama](1.PNG) **Proses Pembelian & Checkout:**
+
 ![Proses Pembelian](2.PNG) **Isi File Kasir.txt:**
+
 ![Isi Kasir.txt](4.PNG) ## Analisis Singkat Kode (dari Laporan Asli)
 
-[cite_start]Program ini menggunakan dua fungsi utama: `diskon()` untuk menghitung potongan harga berdasarkan total belanja, dan `main()` sebagai fungsi utama yang mengelola alur program[cite: 291]. [cite_start]Data barang dan harga disimpan dalam *array* `barang` dan `bayar`[cite: 294]. Program berinteraksi dengan pengguna melalui menu berbasis teks dan input `scanf`. Logika pemilihan barang, akumulasi total, dan penerapan diskon diatur menggunakan struktur `if-else if` dan loop `do-while`. [cite_start]Hasil akhir transaksi dicatat ke dalam file eksternal `Kasir.txt` menggunakan fungsi-fungsi dari `stdio.h` [cite: 299-319].
+Program ini menggunakan dua fungsi utama: `diskon()` untuk menghitung potongan harga berdasarkan total belanja, dan `main()` sebagai fungsi utama yang mengelola alur program. Data barang dan harga disimpan dalam *array* `barang` dan `bayar`. Program berinteraksi dengan pengguna melalui menu berbasis teks dan input `scanf`. Logika pemilihan barang, akumulasi total, dan penerapan diskon diatur menggunakan struktur `if-else if` dan loop `do-while`. Hasil akhir transaksi dicatat ke dalam file eksternal `Kasir.txt` menggunakan fungsi-fungsi dari `stdio.h`.
 
+[![Demonstrasi Program Kasir](demo_thumbnail.png)](https://youtu.be/FMWzWn124ro)
 ---
