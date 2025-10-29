@@ -1,10 +1,18 @@
+<div align="center">
+
 # Program Kasir Sederhana C++
+
+</div>
 
 Repositori ini berisi kode sumber untuk program kasir sederhana yang dibuat menggunakan bahasa pemrograman C++. Proyek ini awalnya dikembangkan sebagai tugas akhir untuk matakuliah Praktikum Dasar Pemrograman Komputer di Universitas Negeri Malang (Semester 2, Prodi D3 Teknik Elektronika, Tahun 2022).
 
 ---
 
+<div align="center">
+
 ## Tujuan Proyek
+
+</div>
 
 * Memenuhi persyaratan tugas akhir matakuliah Praktikum Dasar Pemrograman Komputer.
 * Mendemonstrasikan pemahaman dan implementasi konsep dasar pemrograman C++, meliputi:
@@ -20,7 +28,11 @@ Repositori ini berisi kode sumber untuk program kasir sederhana yang dibuat meng
 
 ---
 
+<div align="center">
+
 ## Fitur Program
+
+</div>
 
 * **Menu Barang:** Menampilkan daftar barang beserta harganya yang tersimpan dalam *array*.
 * **Pemilihan Barang:** Pengguna dapat memilih barang berdasarkan nomor urut.
@@ -36,7 +48,11 @@ Repositori ini berisi kode sumber untuk program kasir sederhana yang dibuat meng
 
 ---
 
+<div align="center">
+
 ## Teknologi yang Digunakan
+
+</div>
 
 * **Bahasa Pemrograman:** C++
 * **Library Standar C:**
@@ -46,7 +62,11 @@ Repositori ini berisi kode sumber untuk program kasir sederhana yang dibuat meng
 
 ---
 
+<div align="center">
+
 ## Cara Kompilasi dan Menjalankan
+
+</div>
 
 1.  **Pastikan Anda memiliki C++ Compiler:** Seperti GCC (MinGW untuk Windows) atau Clang.
 2.  **Simpan Kode:** Simpan kode sumber sebagai file bernama `program_kasir.cpp`.
@@ -64,7 +84,11 @@ Repositori ini berisi kode sumber untuk program kasir sederhana yang dibuat meng
 
 ---
 
+<div align="center">
+
 ## Struktur File
+
+</div>
 
 ```
 .
@@ -74,9 +98,9 @@ Repositori ini berisi kode sumber untuk program kasir sederhana yang dibuat meng
 
 ---
 
-## Contoh Output
-
 <div align="center">
+
+## Contoh Output
 
 **Tampilan Awal**
 
@@ -108,15 +132,19 @@ Repositori ini berisi kode sumber untuk program kasir sederhana yang dibuat meng
 
 </div>
 
+<div align="center">
+
 ## Penjelasan Singkat
+
+</div>
 
 Program ini menggunakan dua fungsi utama: `diskon()` untuk menghitung potongan harga berdasarkan total belanja, dan `main()` sebagai fungsi utama yang mengelola alur program. Data barang dan harga disimpan dalam *array* `barang` dan `bayar`. Program berinteraksi dengan pengguna melalui menu berbasis teks dan input `scanf`. Logika pemilihan barang, akumulasi total (`hitung`), dan penerapan diskon diatur menggunakan struktur `if-else if` dan loop `do-while`. Hasil akhir transaksi dicatat ke dalam file eksternal `Kasir.txt`.
 
 ---
 
-## Demonstrasi Video
-
 <div align="center">
+
+## Demonstrasi Video
 
 [![Demonstrasi Program Kasir Sederhana C++](demo_thumbnail.webp)](https://youtu.be/FMWzWn124ro)
 
